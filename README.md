@@ -6,7 +6,7 @@ to turn video into images
 use this command<br>
 --source: the path to your video
 
---sec: time interval between each image
+--sec: time interval between each image (in seconds)
 ```
 python3 app.py --source /video/path --sec 2
 ```
