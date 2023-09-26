@@ -58,7 +58,7 @@ def main(args):
             if len(frames) != 0:
                 cv2.imwrite( path_out + "image%d.jpg" % result_counter, frames[0])
                 print(f'saving image {result_counter} success! (frame: {frame_counter} | video timestamp: {np.round(timestamp, 2)})')
-                result_countercounter+=1
+                result_counter+=1
                 frames = []
 
         if frame_counter == progress: # if frame counter reach the end, finish program
