@@ -8,5 +8,5 @@ use this command<br>
 
 --sec: time interval between each image (in seconds)
 ```
-python3 app.py --source /video/path --sec 2
+python3 app.py --path /video/path --sec 2
 ```
